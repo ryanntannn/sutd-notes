@@ -22,7 +22,7 @@
 - 2 vectors can be added together to form a resultant vector.
 - Vector summation: $\vec{A} + \vec{B} = \vec{C}$
 
-  ![Vector Addition](./week1-res/parallel.jpg)
+  ![Vector Addition](./week1-res/parallel.png)
 
 - Additional - [Online Vector Addition Calculator - oPhysics](https://ophysics.com/k3b.html)
 - Fun fact - The sum of 2 vectors are equal to the resultant vector of the 2 vectors
@@ -89,3 +89,26 @@ $$\hat{\theta} = -\sin\theta\hat{i} + \cos\theta\hat{j}$$
 - Dot product $\vec{A} \cdot \vec{B}$ is equal to the product of the magnitude of $\vec{A}$ and the projection of $\vec{B}$ in the direction of $\vec{A}$.
 
   $$\vec{A} \cdot \vec{B} = A(B\cos\theta)$$
+
+- $\vec{i} \cdot \vec{i} = 0$
+- $\vec{i} \cdot \vec{j} = 1$
+- $\vec{j} \cdot \vec{i} = 1$
+- $\vec{r} \cdot \vec{r} = 0$
+- $\vec{r} \cdot \vec{\theta} = 1$
+- $\vec{\theta} \cdot \vec{\theta} = 0$
+
+## Vector Cross Product
+
+- The cross product of two vectors is a vector quantity which is equal to the product of the magnitudes of the two vectors and the sine of the angle between them.
+
+  $$\vec{A} \times \vec{B} = AB\sin\theta\hat{n}$$
+
+where $\hat{n}$ is a unit vector perpendicular to the plane containing $\vec{A}$ and $\vec{B}$, and is directed according to the right-hand rule.
+
+![Right Hand Rule](week1-res/right-hand-grip.png)
+
+- The cross product of 2 vectors is a **vector quantity**.
+- The cross product of 2 vectors is **anti-commutative**, $\vec{A} \times \vec{B} = -\vec{B} \times \vec{A}$
+- The cross product of 2 vectors is **distributive**, $\vec{A} \times (\vec{B} + \vec{C}) = \vec{A} \times \vec{B} + \vec{A} \times \vec{C}$
+
+- Vector dot product is **scalar**, vector cross product is **vector**.
