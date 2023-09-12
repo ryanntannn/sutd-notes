@@ -112,3 +112,10 @@ where $\hat{n}$ is a unit vector perpendicular to the plane containing $\vec{A}$
 - The cross product of 2 vectors is **distributive**, $\vec{A} \times (\vec{B} + \vec{C}) = \vec{A} \times \vec{B} + \vec{A} \times \vec{C}$
 
 - Vector dot product is **scalar**, vector cross product is **vector**.
+
+### 3D Cartesian Coordinate System
+
+- To properly determine the position in 3D space, 1 more axis (called z-axis) is added to the x-axis and y-axis.
+  $$\vec{r} = x\hat{i} + y\hat{j} + z\hat{k}$$
+
+  ![3d](week1-res/3d.png)
